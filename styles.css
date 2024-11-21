@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor general */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilo de las columnas */
+.columna {
+    width: 33%; /* Cada columna tendrá un 33% del ancho */
+    float: left; /* Flotar a la izquierda para que estén alineadas horizontalmente */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    text-align: left;
+    background-color: #fff;
+    margin-right: 1%; /* Espacio entre columnas */
+}
+
+/* Evitar que el contenido afecte el diseño */
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clear para evitar que los elementos floten al lado de las columnas */
+.clear {
+    clear: both;
+    height: 0;
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos para los subtítulos de las películas */
+h2 {
+    color: #007bff;
+}
